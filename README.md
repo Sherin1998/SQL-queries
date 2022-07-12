@@ -11,8 +11,10 @@ mydb = connection.connect(host="localhost",user="root", passwd="SQL pwd",use_pur
  # check if the connection is established
  
  
-query = "Create Database Carbon"
+query = "Create Database Carbon"    #enter query
 
 cur= mydb.cursor()          my curser wil point to 1st location
 
 cur.execute(query)
+
+
